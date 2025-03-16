@@ -1,0 +1,133 @@
+/* Főoldal stílusai */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .product .price {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .product button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .product button:hover {
+    background-color: #218838;
+  }
+  footer {
+	
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url("https://pngimg.com/uploads/grass/grass_PNG109092.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.9; 
+  }
+  #logoutButton {
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+#logoutButton:hover {
+    transform: scale(1.0); 
+    font-size: 1.0rem; 
+}   
+#loginButton {
+  position: absolute; 
+  top: 1rem; 
+  right: 1rem; 
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#loginButton:hover {
+  background-color: #218838;
+  transform: scale(1.0); 
+  font-size: 1.0rem; 
+}   
+
+
+#adminButton {
+  position: absolute; 
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #dc3545; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+#adminButton:hover {
+  background-color: #c82333; 
+  transform: scale(1.0); 
+  font-size: 1.0rem; 
+}
+
+#cartButton {
+  position: absolute;
+  top: calc(1rem + 3rem); 
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #17a2b8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+#cartButton:hover {
+  background-color: #138496; 
+  transform: scale(1.0); 
+  font-size: 1.0rem; 
+}
